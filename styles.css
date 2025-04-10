@@ -37,7 +37,7 @@ display: flex;
 }
 
 .thumbnail::before{
-    content: attr (data-duration);
+    content: attr(data-duration);
     position: absolute;
     background-color: rgba(0, 0, 0, .85);
     color: white;
